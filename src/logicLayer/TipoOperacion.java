@@ -1,5 +1,9 @@
 package logicLayer;
 
-public class TipoOperacion {
+public enum TipoOperacion {
+	
+	DEPOSITO,
+	RETIRO,
+	TRANSFERENCIA;
 
 }
